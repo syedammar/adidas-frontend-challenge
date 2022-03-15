@@ -1,0 +1,15 @@
+{
+    "welcome": {
+        "title": "Welcome, Please login to your account"
+    },
+    "forms": {
+        "log-in": "Log In",
+        "email": "Email",
+        "email-placeholder": "Enter your Email ID",
+        "password": "Password",
+        "password-placeholder": "Enter your password"
+    },
+    "dashboard": {
+        "page-heading": "My Teams"
+    }
+}

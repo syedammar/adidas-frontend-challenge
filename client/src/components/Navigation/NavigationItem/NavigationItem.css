@@ -1,0 +1,26 @@
+.navbar-nav li a.active{
+    color: #000000;
+}
+
+
+
+div.sidenavformate {
+    visibility: hidden;
+    display: none;
+}
+
+.active > div.sidenavformate {
+    visibility: visible;
+    display: block;
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 768px) { 
+    input:checked ~ .sidebar {left:-70px}
+    input:checked ~ label.hambargarmenu {left: 20px}
+    input:checked ~ .content-right, .resp-class .mg-l-15, .resp-class .row {margin-left:0}
+    input:checked ~ .content-right .UL-mr-10 {margin: 0}
+    input:checked ~ .content-right .ULbgF .col-md-12 .pd-20 {padding: 10px}
+    input:checked ~ .content-right .ULbgF .col-md-12 .pd-20 .settings-box {width: 100%;margin: 0;margin-bottom: 15px;}
+}
+
+

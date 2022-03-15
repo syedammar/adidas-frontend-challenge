@@ -1,0 +1,15 @@
+{
+    "welcome": {
+        "title": "Willkommen, bitte melden Sie sich in Ihrem Konto an"
+    },
+    "forms": {
+        "log-in": "Log In",
+        "email": "Email",
+        "email-placeholder": "Geben Sie Ihre Email-ID ein",
+        "password": "Passwort",
+        "password-placeholder": "Geben Sie Ihr Passwort ein"
+    },
+    "dashboard": {
+        "page-heading": "Meine Teams"
+    }
+}

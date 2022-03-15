@@ -1,0 +1,109 @@
+.wrapper {
+    background-color: #EDF0F5;
+    min-height: 100vh;
+    display: flex;
+}
+
+.main-wrap {
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.main-wrap .content-right {
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    position: relative;
+    top: 45px;
+    margin-left: 300px;
+    padding: 0;
+}
+
+input:checked ~ .content-right {
+    margin-left: 70px;
+}
+
+.main-wrap label.hambargarmenu {
+    z-index: 100;
+    top: 15px;
+    left: 315px;
+    -moz-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+}
+
+label {
+    display: inline-block;
+    color: #939598;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.centerDiv {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 768px) {
+    .res-login .innerlogin, .res-login .div2 {
+        width: 100%;
+    }
+    .res-login .div1 {
+        width: 0;
+    }
+
+    .res-login .div2 .logo {
+        margin: 76px auto 41px auto;
+    }
+}
+
+.innerLogin {
+    width: 70%;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    display: flex;
+}
+
+.loginImage {
+    background: url('../../assets/image/login-image.JPG') center 0 no-repeat transparent;
+    margin-top: 3rem;
+    background-size: contain;
+    padding: 12rem;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    margin: 31px auto 41px auto;
+}
+.div2 {
+    width: 50%;
+    background-color: #fff;
+}
+.div1 {
+    width: 50%;
+    background-color: #f4f4f4;
+}
+
+.plateform-text {
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 20px;
+    color: #585858;
+    font-weight: 500;
+}
+
+.plateform-subtext {
+    text-align: center;
+    margin-top: 1rem;
+    color: #A7A7A7;
+}
+
+
+
+.Error-color {
+    color: #c02038;
+}
+
