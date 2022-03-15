@@ -3,15 +3,15 @@
 
 ### Features ###
 
-**Basic Login/Logout**
-**Language Support**
-**Lazy loaded router**
-**Use React Context**
-**React Router Dom V6**
-**Use of styled-components**
-**Use of Functional component and ClassComponent**
-**Use of React-Bootstrap**
-**Use of custom css to create Navigation drawer**
+* **Basic Login/Logout**
+* **Language Support**
+* **Lazy loaded router**
+* **Use React Context**
+* **React Router Dom V6**
+* **Use of styled-components**
+* **Use of Functional component and ClassComponent**
+* **Use of React-Bootstrap**
+* **Use of custom css to create Navigation drawer**
 
 Min Req: Docker installed server
 
@@ -26,3 +26,7 @@ Access the Adminer using route `http://localhost:8000/`.
 To log in, use `mysql_db` as the server Username as `root` and password as `MYSQL_ROOT_PASSWORD`.
 
 To start interacting with the application, open `http://localhost:3050/` on a browser.
+
+To login use with default login:
+`email : user@test.com`
+`password : 123456`
