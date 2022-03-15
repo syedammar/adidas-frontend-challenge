@@ -13,6 +13,9 @@
 * **Use of React-Bootstrap**
 * **Use of custom css to create Navigation drawer**
 
+### Not handled all the edge cases... still there is lots of scope to improvise this application ###
+**Due to time constraint not able to write test cases**
+
 Min Req: Docker installed server
 
 Run `npm i` inside the client directory
